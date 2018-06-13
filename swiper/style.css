@@ -1,0 +1,17 @@
+*{margin: 0; box-sizing: border-box;}
+img{
+  width: 500px;
+}
+#wrapper{
+  width: 500px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+#slides{
+  display: flex;
+  align-items: flex-start;
+  transition: all .5s;
+}
+#buttons{
+  text-align: center;
+}
